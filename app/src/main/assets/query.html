@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        html { font-size:12px; }
+    </style>
+    <script type="application/javascript">
+        function callAndroidSubmit() {
+            var customerNo = document.getElementById("customerNo").value;
+            // the implementation of 'androidJs' object by Android
+            androidJs.submit(customerNo);
+        }
+    </script>
+</head>
+<body>
+<H2>
+    This page show u how to call android from javascript.
+</H2>
+<div style="margin-bottom: 8px;">
+    Customer No.
+    <input type="text" id="customerNo" value="12345"/>
+</div>
+<button type="button" onclick="javascript:callAndroidSubmit();" >Call android 'Submit'</button>
+</body>
+</html>

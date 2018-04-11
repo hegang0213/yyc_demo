@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <array name="tab_titles">
+        <item>Query</item>
+        <item>Pay</item>
+        <item>About</item>
+    </array>
+
+    <string name="pay_no_info">You do not input a customer no at \'Query\' yet.</string>
+    <string name="customer_no">Customer No.</string>
+    <string name="pay">Pay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Say some words to introduce about things.</string>
+</resources>
